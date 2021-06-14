@@ -25,32 +25,37 @@
 						## Weekly Update
 
 						-----
-						### Last Week
-						1. CDT skills and careers event <!-- .element: class="fragment" -->
-						2. Improving dipole plotting code<!-- .element: class="fragment" -->
-						3. Mild careers panic <!-- .element: class="fragment" -->
-						4. Won the quiz with Berke, Christy, Zak and Orianna <!-- .element: class="fragment" -->
-						5. Agreed to give a webinar on PGR event organising and research culture <!-- .element: class="fragment" --> 
+						### Last Week(s)
+						1. Found some interesting density-dependent behaviour, so this may be a new side project
+						2. Had a 2.5 hour chat about calculating connectivity and dimension of weighted graphs
+						3. Had a catch up chat with some 1st year PhDs about a potential event
+						4. Debugged all the bath spectral functions for my main project
+						5. Organised this week's theory coffee speaker
 						
 						-----
 						### Main Result
 						<section> 
-							<img class="r-stretch" src="img/dipole_current2.png"></img>
+							<img class="r-stretch" src="img/exp_Ham.png"></img>
+							
 						</section>
 						---
-						## Another Eigenhop Spectrum
-						<section> 
-							<img class="r-stretch" src="img/dipole_current.png">
-							<p> I think it might just be ill-suited to this kind of system?
-							</p>							
-						</section>
+						## Measures of system dimension/connectivity
+						
+						Most promising is the weighted connectivity measures
+						$$s_i = \sum_{j=1}^N a_{ij} w_{ij}$$
+						$$k^w_{nn,i} = \frac{1}{s_i} \sum_{j=1}^N a_{ij}w_{ij}k_j$$
+						
+						Though looking at the spectral dimension may also be helpful:
+						$$K(t) = \text{tr}e^{-Ht} = \sum_\lambda e^{-\lambda t}$$
+						$$K(t) \simeq t^{-\frac{d_s}{2}}$$
 						-----
 						### This Week
-						1. Write webinar presentation <!-- .element: class="fragment" -->
-						2. HDF5 wasn't working so move data storage code to pickle <!-- .element: class="fragment" -->
-						3. Yet more testing of code <!-- .element: class="fragment" -->
-						4. Liaise with Scott to figure out how to do units for the dipoles <!-- .element: class="fragment" -->
-						5. Reading some relevant papers <!-- .element: class="fragment" -->
+						0. Work on manuscript comments
+						1. Generate more finite temperature data for the main project
+						2. Finally move things across to the clusters
+						3. Try to have less hayfever so I can focus on the paper comments more
+						4. Double check which virtual conferences I may want to go to in the coming months
+						5. Think about how to code up the analysis for the side project
 
 					</textarea>
 				</section>
