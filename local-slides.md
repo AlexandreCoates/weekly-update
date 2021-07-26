@@ -24,9 +24,7 @@ customTheme : "dist/theme/alex"
 
 ### Main Result
 
-<!-- .slide: data-background="#dddddd" -->
-
-![Appraisal Screenshot](img/wk90_correlation.png)
+<iframe src="img/wk90_correlation.png", title="Analysis Cross Correlation" height = "500" width="100%" style = "background:#dddddd" >
 
 More analysis, looks like the kind of bath matters a lot more than other variables, for now.
 
