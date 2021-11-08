@@ -10,8 +10,7 @@ customTheme : "dist/theme/alex"
 
 ## Weekly Update
 
-26/07/2021
-
+08/11/2021
 ---
 
 ## Last Week
